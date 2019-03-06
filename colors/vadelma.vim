@@ -34,11 +34,14 @@ hi Question ctermbg=232
 hi SignColumn ctermbg=234
 
 hi LightlineLeft_normal_0 ctermbg=198 ctermfg=7
-hi LightlineLeft_normal_1 ctermbg=240 ctermfg=7
+hi LightlineLeft_normal_1 ctermbg=240 ctermfg=234
 hi LightlineMiddle_normal ctermbg=238 ctermfg=7
+hi LightlineRight_normal_0 ctermbg=7 ctermfg=234
+hi LightlineRight_normal_1 ctermbg=242 ctermfg=234
+hi LightlineRight_normal_2 ctermbg=240 ctermfg=234
 hi LightlineLeft_insert_0 ctermbg=7 ctermfg=29
 hi LightlineLeft_insert_1 ctermbg=35 ctermfg=236
 hi LightlineMiddle_insert ctermbg=29 ctermfg=7
-hi LightlineRight_insert_0 ctermbg=7 ctermfg=236
-hi LightlineRight_insert_1 ctermbg=41 ctermfg=236
-hi LightlineRight_insert_2 ctermbg=35 ctermfg=236
+hi LightlineRight_insert_0 ctermbg=7 ctermfg=234
+hi LightlineRight_insert_1 ctermbg=41 ctermfg=234
+hi LightlineRight_insert_2 ctermbg=35 ctermfg=234
