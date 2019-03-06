@@ -3,6 +3,16 @@
 " Author: Severi Jääskeläinen <severij@tuta.io>
 " Version: 0.1
 
+set background=dark
+highlight clear
+
+if exists("syntax_on")
+    syntax reset
+endif
+
+set t_Co=256
+let g:colors_name = "vadelma"
+
 hi Normal ctermbg=236 ctermfg=246
 hi NonText ctermfg=239
 hi LineNr ctermbg=235 ctermfg=242
