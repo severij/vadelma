@@ -1,3 +1,7 @@
+" Vadelma - Vim color scheme
+" URL: https://github.com/severij/vadelma.git
+" Author: Severi Jääskeläinen <severij@tuta.io>
+" Version: 0.1
 
 hi Normal ctermbg=236 ctermfg=246
 hi NonText ctermfg=239
