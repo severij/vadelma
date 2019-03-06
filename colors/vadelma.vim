@@ -15,23 +15,31 @@ let g:colors_name = "vadelma"
 
 hi Normal ctermbg=236 ctermfg=246
 hi NonText ctermfg=239
-hi LineNr ctermbg=235 ctermfg=242
+hi LineNr ctermbg=236 ctermfg=240
+hi SignColumn ctermbg=236
 hi Comment ctermfg=65
 hi Statement ctermfg=198
 hi Identifier ctermfg=35
 hi Constant ctermfg=29
 hi PreProc ctermfg=131
 hi Type ctermfg=30
-hi Todo ctermbg=233 ctermfg=130
+hi Todo ctermbg=235 ctermfg=130
 hi Search ctermbg=fg ctermfg=232
 hi Visual ctermbg=237
 hi WildMenu cterm=bold ctermbg=198 ctermfg=52
-hi Pmenu ctermfg=239 ctermbg=232
+
+hi Pmenu ctermfg=242 ctermbg=234
 hi PmenuSel ctermfg=255 ctermbg=0
 hi PmenuSBar ctermbg=240
 hi PmenuThumb ctermbg=235
+
 hi Question ctermbg=232
-hi SignColumn ctermbg=234
+hi Title ctermbg=236 ctermfg=198
+hi Error ctermbg=88 ctermfg=207
+hi healthSuccess ctermbg=22 ctermfg=154
+
+hi ALEErrorSign ctermbg=235 ctermfg=124
+hi ALEWarningSign ctermbg=235 ctermfg=208
 
 hi LightlineLeft_normal_0 ctermbg=198 ctermfg=7
 hi LightlineLeft_normal_1 ctermbg=240 ctermfg=234
