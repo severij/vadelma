@@ -142,11 +142,11 @@ nnoremap <Leader>bg :let &background = ( &background == "dark"? "light" : "dark"
 
 ### Implemented
 
+* HTML
 * Python
 
 ### TODO
 
-* HTML
 * Haskell
 * LaTeX
 * Ruby
