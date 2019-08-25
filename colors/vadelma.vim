@@ -8,7 +8,7 @@
 "       Y8bd8P  888  888 Y88b 888 Y8b.     888 888  888  888 888  888
 "        Y88P   'Y888888  'Y88888  'Y8888  888 888  888  888 'Y888888
 "
-"                    Super sexy Vim/Neovim colorscheme.
+"                    Super sexy Vim/Neovim colorscheme
 "
 " Name: Vadelma
 " Author: Severi Jääskeläinen <severij@tuta.io>
@@ -86,7 +86,7 @@ let s:sea_green     = ['#5f875f', 65]
 let s:spring_green1 = ['#00875f', 29]
 let s:spring_green2 = ['#00af5f', 35]
 let s:turquoise     = ['#5f8787', 66]
-let s:yellow        = ['#ff5f00', 172]
+let s:yellow        = ['#ffff00', 226]
 
 function! s:hl(hl_group, bg_color, fg_color, ...)
     if empty(a:bg_color)
@@ -171,6 +171,12 @@ hi! link Title Function
 hi! link SignColumn LineNr
 hi! link SpecialKey Special
 
+
+" JavaScript
+hi! link javascriptValue Number
+hi! link javascriptNull Number
+hi! link javascriptGlobal Identifier
+hi! link javascriptExpression Todo
 " Ruby
 hi! link rubyDefine Statement
 hi! link rubyStringDelimiter Constant
