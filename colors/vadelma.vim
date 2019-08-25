@@ -194,6 +194,5 @@ endif
 " * Markdown
 " * HTML
 " * LaTeX
-" * Python
 " * Haskell
 " * Others?
