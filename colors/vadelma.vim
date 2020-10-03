@@ -25,10 +25,10 @@
 " to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 " copies of the Software, and to permit persons to whom the Software is
 " furnished to do so, subject to the following conditions:
-" 
+"
 " The above copyright notice and this permission notice shall be included in
 " all copies or substantial portions of the Software.
-" 
+"
 " THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 " IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 " FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -107,10 +107,10 @@ function! s:hl(hl_group, bg_color, fg_color, ...)
     exe printf(
     \   "hi %s guibg=%s ctermbg=%s guifg=%s ctermfg=%s gui=%s cterm=%s",
     \   a:hl_group,
-    \   l:bg_color[0], 
-    \   l:bg_color[1], 
-    \   l:fg_color[0], 
-    \   l:fg_color[1], 
+    \   l:bg_color[0],
+    \   l:bg_color[1],
+    \   l:fg_color[0],
+    \   l:fg_color[1],
     \   l:style,
     \   l:style
     \)
@@ -184,6 +184,15 @@ hi! link rubySymbol Number
 hi! link rubyLocalVariableOrMethod Identifier
 hi! link rubyPseudoVariable Number
 
+" Haskell Highlighting
+hi! link haskellType Type
+hi! link haskellIdentifier Identifier
+hi! link haskellOperators Operator
+hi! link haskellWhere Operator
+hi! link haskellDelimiter Operator
+hi! link haskellImportKeywords Statement
+hi! link haskellStatement Statement
+
 if has('nvim')
     call s:hl('healthSuccess', [], s:green)
     hi! link NormalNC Normal
@@ -200,5 +209,4 @@ endif
 " * Markdown
 " * HTML
 " * LaTeX
-" * Haskell
 " * Others?
